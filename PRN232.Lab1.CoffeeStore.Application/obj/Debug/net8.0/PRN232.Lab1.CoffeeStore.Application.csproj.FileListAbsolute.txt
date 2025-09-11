@@ -1,0 +1,15 @@
+D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.Application\bin\Debug\net8.0\PRN232.Lab1.CoffeeStore.Application.deps.json
+D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.Application\bin\Debug\net8.0\PRN232.Lab1.CoffeeStore.Application.dll
+D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.Application\bin\Debug\net8.0\PRN232.Lab1.CoffeeStore.Application.pdb
+D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.Application\bin\Debug\net8.0\PRN232.Lab1.CoffeeStore.Data.dll
+D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.Application\bin\Debug\net8.0\PRN232.Lab1.CoffeeStore.Data.pdb
+D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.Application\obj\Debug\net8.0\PRN232.Lab1.CoffeeStore.Application.csproj.AssemblyReference.cache
+D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.Application\obj\Debug\net8.0\PRN232.Lab1.CoffeeStore.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.Application\obj\Debug\net8.0\PRN232.Lab1.CoffeeStore.Application.AssemblyInfoInputs.cache
+D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.Application\obj\Debug\net8.0\PRN232.Lab1.CoffeeStore.Application.AssemblyInfo.cs
+D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.Application\obj\Debug\net8.0\PRN232.Lab1.CoffeeStore.Application.csproj.CoreCompileInputs.cache
+D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.Application\obj\Debug\net8.0\PRN232.L.E2CC7793.Up2Date
+D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.Application\obj\Debug\net8.0\PRN232.Lab1.CoffeeStore.Application.dll
+D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.Application\obj\Debug\net8.0\refint\PRN232.Lab1.CoffeeStore.Application.dll
+D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.Application\obj\Debug\net8.0\PRN232.Lab1.CoffeeStore.Application.pdb
+D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.Application\obj\Debug\net8.0\ref\PRN232.Lab1.CoffeeStore.Application.dll

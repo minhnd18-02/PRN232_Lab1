@@ -1,0 +1,17 @@
+D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.Repository\obj\Debug\net8.0\PRN232.Lab1.CoffeeStore.Infrastructure.csproj.AssemblyReference.cache
+D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.Repository\obj\Debug\net8.0\PRN232.Lab1.CoffeeStore.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.Repository\obj\Debug\net8.0\PRN232.Lab1.CoffeeStore.Infrastructure.AssemblyInfoInputs.cache
+D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.Repository\obj\Debug\net8.0\PRN232.Lab1.CoffeeStore.Infrastructure.AssemblyInfo.cs
+D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.Repository\obj\Debug\net8.0\PRN232.Lab1.CoffeeStore.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.Repository\bin\Debug\net8.0\PRN232.Lab1.CoffeeStore.Infrastructure.deps.json
+D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.Repository\bin\Debug\net8.0\PRN232.Lab1.CoffeeStore.Infrastructure.dll
+D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.Repository\bin\Debug\net8.0\PRN232.Lab1.CoffeeStore.Infrastructure.pdb
+D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.Repository\bin\Debug\net8.0\PRN232.Lab1.CoffeeStore.Application.dll
+D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.Repository\bin\Debug\net8.0\PRN232.Lab1.CoffeeStore.Data.dll
+D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.Repository\bin\Debug\net8.0\PRN232.Lab1.CoffeeStore.Application.pdb
+D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.Repository\bin\Debug\net8.0\PRN232.Lab1.CoffeeStore.Data.pdb
+D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.Repository\obj\Debug\net8.0\PRN232.L.0CC3F80B.Up2Date
+D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.Repository\obj\Debug\net8.0\PRN232.Lab1.CoffeeStore.Infrastructure.dll
+D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.Repository\obj\Debug\net8.0\refint\PRN232.Lab1.CoffeeStore.Infrastructure.dll
+D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.Repository\obj\Debug\net8.0\PRN232.Lab1.CoffeeStore.Infrastructure.pdb
+D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.Repository\obj\Debug\net8.0\ref\PRN232.Lab1.CoffeeStore.Infrastructure.dll
