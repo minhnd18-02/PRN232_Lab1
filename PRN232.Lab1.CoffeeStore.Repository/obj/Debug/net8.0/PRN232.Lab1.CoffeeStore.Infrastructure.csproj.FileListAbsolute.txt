@@ -15,3 +15,4 @@ D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.Repository\obj\Debug\net8.0\PRN
 D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.Repository\obj\Debug\net8.0\refint\PRN232.Lab1.CoffeeStore.Infrastructure.dll
 D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.Repository\obj\Debug\net8.0\PRN232.Lab1.CoffeeStore.Infrastructure.pdb
 D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.Repository\obj\Debug\net8.0\ref\PRN232.Lab1.CoffeeStore.Infrastructure.dll
+D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.Repository\obj\Debug\net8.0\PRN232.Lab1.CoffeeStore.Infrastructure.sourcelink.json

@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="15.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\PRN232.Lab1.CoffeeStore.Application\PRN232.Lab1.CoffeeStore.Application.csproj" />
   </ItemGroup>
 

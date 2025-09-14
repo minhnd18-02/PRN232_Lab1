@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "PRN232.Lab1.CoffeeStore.API.Controllers.MenuController",
+    "Method": "GetAllMenu",
+    "RelativePath": "api/Menu",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN232.Lab1.CoffeeStore.API.Controllers.MenuController",
+    "Method": "CreateMenu",
+    "RelativePath": "api/Menu",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "menu",
+        "Type": "PRN232.Lab1.CoffeeStore.Application.ViewModels.Menus.CreateMenuRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN232.Lab1.CoffeeStore.API.Controllers.MenuController",
+    "Method": "GetMenuById",
+    "RelativePath": "api/Menu/{menuId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "menuId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN232.Lab1.CoffeeStore.API.Controllers.MenuController",
+    "Method": "UpdateMenu",
+    "RelativePath": "api/Menu/{menuId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "menuId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "menu",
+        "Type": "PRN232.Lab1.CoffeeStore.Application.ViewModels.Menus.UpdateMenuRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN232.Lab1.CoffeeStore.API.Controllers.MenuController",
+    "Method": "DeleteMenu",
+    "RelativePath": "api/Menu/{menuId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "menuId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

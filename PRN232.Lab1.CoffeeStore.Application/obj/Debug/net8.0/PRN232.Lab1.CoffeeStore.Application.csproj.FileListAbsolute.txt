@@ -13,3 +13,4 @@ D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.Application\obj\Debug\net8.0\PR
 D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.Application\obj\Debug\net8.0\refint\PRN232.Lab1.CoffeeStore.Application.dll
 D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.Application\obj\Debug\net8.0\PRN232.Lab1.CoffeeStore.Application.pdb
 D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.Application\obj\Debug\net8.0\ref\PRN232.Lab1.CoffeeStore.Application.dll
+D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.Application\obj\Debug\net8.0\PRN232.Lab1.CoffeeStore.Application.sourcelink.json

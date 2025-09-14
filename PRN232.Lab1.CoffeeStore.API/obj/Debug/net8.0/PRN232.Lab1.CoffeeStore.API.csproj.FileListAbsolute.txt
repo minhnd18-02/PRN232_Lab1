@@ -155,3 +155,5 @@ D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.API\bin\Debug\net8.0\PRN232.Lab
 D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.API\bin\Debug\net8.0\PRN232.Lab1.CoffeeStore.Infrastructure.dll
 D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.API\bin\Debug\net8.0\PRN232.Lab1.CoffeeStore.Application.pdb
 D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.API\bin\Debug\net8.0\PRN232.Lab1.CoffeeStore.Infrastructure.pdb
+D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.API\obj\Debug\net8.0\PRN232.Lab1.CoffeeStore.API.sourcelink.json
+D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.API\bin\Debug\net8.0\AutoMapper.dll

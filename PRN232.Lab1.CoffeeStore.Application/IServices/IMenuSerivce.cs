@@ -1,4 +1,6 @@
-﻿using PRN232.Lab1.CoffeeStore.Data.Entities;
+﻿using PRN232.Lab1.CoffeeStore.Application.ServiceResponse;
+using PRN232.Lab1.CoffeeStore.Application.ViewModels.Menus;
+using PRN232.Lab1.CoffeeStore.Data.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,11 +11,11 @@ namespace PRN232.Lab1.CoffeeStore.Application.IServices
 {
     public interface IMenuSerivce
     {
-        public Task<IEnumerable<Menu>> GetMenus();
-        public Task<Menu> GetMenu(int id);
-        public Task<Menu> AddMenu(Menu menu);
-        public Task<Menu> UpdateMenu(Menu menu);
-        public Task<int> DeleteMenu(int id);
+        Task<ServiceResponse<IEnumerable<MenuResponse>>> GetMenus();
+        Task<ServiceResponse<MenuResponse>> GetMenu(int id);
+        Task<ServiceResponse<MenuResponse>> AddMenu(CreateMenuRequest menu);
+        Task<ServiceResponse<MenuResponse>> UpdateMenu(int id, UpdateMenuRequest menu);
+        Task<ServiceResponse<int>> DeleteMenu(int id);
 
     }
 }
