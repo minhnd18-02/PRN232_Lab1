@@ -9,5 +9,7 @@ namespace PRN232.Lab1.CoffeeStore.Application.IRepositories
 {
     public interface IMenuRepo : IGenericRepo<Menu>
     {
+        Task<IEnumerable<Menu>> GetAllWithMenusAsync();
+        Task<Menu?> GetByIdWithMenusAsync(int id);
     }
 }

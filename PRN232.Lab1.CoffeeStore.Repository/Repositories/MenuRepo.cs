@@ -1,4 +1,5 @@
-﻿using PRN232.Lab1.CoffeeStore.Application.IRepositories;
+﻿using Microsoft.EntityFrameworkCore;
+using PRN232.Lab1.CoffeeStore.Application.IRepositories;
 using PRN232.Lab1.CoffeeStore.Data;
 using PRN232.Lab1.CoffeeStore.Data.Entities;
 using PRN232.Lab1.CoffeeStore.Repositories.Repository;
@@ -15,5 +16,23 @@ namespace PRN232.Lab1.CoffeeStore.Infrastructure.Repositories
         public MenuRepo(AppDbContext context) : base(context)
         {
         }
+
+        public async Task<IEnumerable<Menu>> GetAllWithMenusAsync()
+        {
+            return await _context.Menus
+                .Include(p => p.ProductInMenus)
+                .ThenInclude(p => p.Product)
+                .ToListAsync();
+        }
+
+        public async Task<Menu?> GetByIdWithMenusAsync(int id)
+        {
+            return await _context.Menus
+                .Include(p => p.ProductInMenus)
+                .ThenInclude(p => p.Product)
+                .AsNoTracking()
+                .FirstOrDefaultAsync(p => p.MenuId == id);
+        }
+
     }
 }

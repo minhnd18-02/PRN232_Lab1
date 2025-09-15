@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Azure.Core;
 using PRN232.Lab1.CoffeeStore.Application.IServices;
 using PRN232.Lab1.CoffeeStore.Application.ServiceResponse;
 using PRN232.Lab1.CoffeeStore.Application.ViewModels.Menus;
@@ -26,7 +27,17 @@ namespace PRN232.Lab1.CoffeeStore.Application.Services
             try
             {
                 var newMenu = _mapper.Map<Menu>(menu);
+                foreach (var p in menu.Products)
+                {
+                    newMenu.ProductInMenus.Add(new ProductInMenu
+                    {
+                        ProductId = p.ProductId,
+                        ProductQuantity = p.ProductQuantity
+                    }); 
+                }
+
                 await _unitOfWork.MenuRepo.AddAsync(newMenu);
+                var menuWithProducts = await _unitOfWork.MenuRepo.GetByIdWithMenusAsync(newMenu.MenuId);
 
                 response.Success = true;
                 response.Message = "Menu added successfully";
@@ -74,7 +85,7 @@ namespace PRN232.Lab1.CoffeeStore.Application.Services
             var response = new ServiceResponse<MenuResponse>();
             try
             {
-                var menu = await _unitOfWork.MenuRepo.GetByIdAsync(id);
+                var menu = await _unitOfWork.MenuRepo.GetByIdWithMenusAsync(id);
                 if (menu == null)
                 {
                     response.Success = false;
@@ -102,18 +113,12 @@ namespace PRN232.Lab1.CoffeeStore.Application.Services
             var response = new ServiceResponse<IEnumerable<MenuResponse>>();
             try
             {
-                var menus = await _unitOfWork.MenuRepo.GetAllAsync();
+                var menus = await _unitOfWork.MenuRepo.GetAllWithMenusAsync();
                 if (menus != null && menus.Any())
                 {
                     response.Success = true;
                     response.Message = "Menus retrieved successfully";
-                    response.Data = menus.Select(m => new MenuResponse
-                    {
-                        MenuId = m.MenuId,
-                        MenuName = m.MenuName,
-                        MenuFromDate = m.MenuFromDate,
-                        MenuToDate = m.MenuToDate,
-                    });
+                    response.Data = _mapper.Map<IEnumerable<MenuResponse>>(menus);
                 }
                 else
                 {
@@ -134,19 +139,57 @@ namespace PRN232.Lab1.CoffeeStore.Application.Services
             var response = new ServiceResponse<MenuResponse>();
             try
             {
-                var checkId = await _unitOfWork.MenuRepo.FindEntityAsync(m => m.MenuId == id);
+                var checkId = await _unitOfWork.MenuRepo.GetByIdWithMenusAsync(id);
                 if (checkId == null)
                 {
                     response.Success = false;
                     response.Message = "MenuId not found";
                     return response;
                 }
-                var updateMenu = _mapper.Map(menu, checkId);
-                await _unitOfWork.MenuRepo.UpdateAsync(updateMenu);
+
+                checkId.MenuName = menu.MenuName;
+                checkId.MenuFromDate = menu.MenuFromDate;
+                checkId.MenuToDate = menu.MenuToDate;
+
+                //var checkExist = checkId.ProductInMenus.ToList();
+
+                //foreach (var oldProduct in checkExist)
+                //{
+                //    if (menu.Products.Any(p => p.ProductId == oldProduct.ProductId))
+                //    {
+                //        await _unitOfWork.ProductInMenuRepo.RemoveAsync(oldProduct);
+                //    }
+                //}
+
+
+                //foreach (var newProduct in menu.Products)
+                //{
+                //    var existing = checkExist
+                //        .FirstOrDefault(p => p.ProductId == newProduct.ProductId);
+
+                //    if (existing != null)
+                //    {
+                //        existing.ProductQuantity = newProduct.Quantity;
+                //        await _unitOfWork.ProductInMenuRepo.UpdateAsync(existing);
+                //    }
+                //    else
+                //    {
+                //        checkId.ProductInMenus.Add(new ProductInMenu
+                //        {
+                //            ProductId = newProduct.ProductId,
+                //            ProductQuantity = newProduct.Quantity,
+                //            MenuId = checkId.MenuId,
+                //        });
+                //    }
+                //}
+
+                await _unitOfWork.MenuRepo.UpdateAsync(checkId);
+
+                var menuResponse = await _unitOfWork.MenuRepo.GetByIdWithMenusAsync(id);
 
                 response.Success = true;
                 response.Message = "Menu updated successfully";
-                response.Data = _mapper.Map<MenuResponse>(updateMenu);
+                response.Data = _mapper.Map<MenuResponse>(menuResponse);
             }
             catch (Exception ex)
             {

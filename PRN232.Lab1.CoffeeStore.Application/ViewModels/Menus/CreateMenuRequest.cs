@@ -11,5 +11,7 @@ namespace PRN232.Lab1.CoffeeStore.Application.ViewModels.Menus
         public string MenuName { get; set; } = string.Empty;
         public DateTime MenuFromDate { get; set; }
         public DateTime MenuToDate { get; set; }
+        
+        public List<AddProductInMenuRequest> Products { get; set; } = new List<AddProductInMenuRequest>();
     }
 }

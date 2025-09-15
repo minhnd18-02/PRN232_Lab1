@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Documents\\PRN232.Lab1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{49E8A5A7-49DE-4173-9FCB-135BD256B13B}|PRN232.Lab1.CoffeeStore.Application\\PRN232.Lab1.CoffeeStore.Application.csproj|d:\\documents\\prn232.lab1\\prn232.lab1.coffeestore.application\\viewmodels\\menus\\updatemenurequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49E8A5A7-49DE-4173-9FCB-135BD256B13B}|PRN232.Lab1.CoffeeStore.Application\\PRN232.Lab1.CoffeeStore.Application.csproj|solutionrelative:prn232.lab1.coffeestore.application\\viewmodels\\menus\\updatemenurequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{49E8A5A7-49DE-4173-9FCB-135BD256B13B}|PRN232.Lab1.CoffeeStore.Application\\PRN232.Lab1.CoffeeStore.Application.csproj|d:\\documents\\prn232.lab1\\prn232.lab1.coffeestore.application\\services\\menuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49E8A5A7-49DE-4173-9FCB-135BD256B13B}|PRN232.Lab1.CoffeeStore.Application\\PRN232.Lab1.CoffeeStore.Application.csproj|solutionrelative:prn232.lab1.coffeestore.application\\services\\menuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,24 +15,32 @@
       "RelativeMoniker": "D:0:0:{E6038F89-CFE1-4CC0-A970-3686F49D00C0}|PRN232.Lab1.CoffeeStore.API\\PRN232.Lab1.CoffeeStore.API.csproj|solutionrelative:prn232.lab1.coffeestore.api\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49E8A5A7-49DE-4173-9FCB-135BD256B13B}|PRN232.Lab1.CoffeeStore.Application\\PRN232.Lab1.CoffeeStore.Application.csproj|d:\\documents\\prn232.lab1\\prn232.lab1.coffeestore.application\\iservices\\imenuserivce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49E8A5A7-49DE-4173-9FCB-135BD256B13B}|PRN232.Lab1.CoffeeStore.Application\\PRN232.Lab1.CoffeeStore.Application.csproj|solutionrelative:prn232.lab1.coffeestore.application\\iservices\\imenuserivce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A1525575-26CA-4400-A91B-ECBF44144346}|PRN232.Lab1.CoffeeStore.Repository\\PRN232.Lab1.CoffeeStore.Infrastructure.csproj|d:\\documents\\prn232.lab1\\prn232.lab1.coffeestore.repository\\repositories\\menurepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1525575-26CA-4400-A91B-ECBF44144346}|PRN232.Lab1.CoffeeStore.Repository\\PRN232.Lab1.CoffeeStore.Infrastructure.csproj|solutionrelative:prn232.lab1.coffeestore.repository\\repositories\\menurepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49E8A5A7-49DE-4173-9FCB-135BD256B13B}|PRN232.Lab1.CoffeeStore.Application\\PRN232.Lab1.CoffeeStore.Application.csproj|d:\\documents\\prn232.lab1\\prn232.lab1.coffeestore.application\\viewmodels\\menus\\menuresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49E8A5A7-49DE-4173-9FCB-135BD256B13B}|PRN232.Lab1.CoffeeStore.Application\\PRN232.Lab1.CoffeeStore.Application.csproj|solutionrelative:prn232.lab1.coffeestore.application\\viewmodels\\menus\\menuresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A1525575-26CA-4400-A91B-ECBF44144346}|PRN232.Lab1.CoffeeStore.Repository\\PRN232.Lab1.CoffeeStore.Infrastructure.csproj|d:\\documents\\prn232.lab1\\prn232.lab1.coffeestore.repository\\repositories\\productrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1525575-26CA-4400-A91B-ECBF44144346}|PRN232.Lab1.CoffeeStore.Repository\\PRN232.Lab1.CoffeeStore.Infrastructure.csproj|solutionrelative:prn232.lab1.coffeestore.repository\\repositories\\productrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{435D5EEE-5392-4750-87CB-F779D638608F}|PRN232.Lab1.CoffeeStore.Data\\PRN232.Lab1.CoffeeStore.Data.csproj|d:\\documents\\prn232.lab1\\prn232.lab1.coffeestore.data\\entities\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{435D5EEE-5392-4750-87CB-F779D638608F}|PRN232.Lab1.CoffeeStore.Data\\PRN232.Lab1.CoffeeStore.Data.csproj|solutionrelative:prn232.lab1.coffeestore.data\\entities\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E6038F89-CFE1-4CC0-A970-3686F49D00C0}|PRN232.Lab1.CoffeeStore.API\\PRN232.Lab1.CoffeeStore.API.csproj|d:\\documents\\prn232.lab1\\prn232.lab1.coffeestore.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6038F89-CFE1-4CC0-A970-3686F49D00C0}|PRN232.Lab1.CoffeeStore.API\\PRN232.Lab1.CoffeeStore.API.csproj|solutionrelative:prn232.lab1.coffeestore.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49E8A5A7-49DE-4173-9FCB-135BD256B13B}|PRN232.Lab1.CoffeeStore.Application\\PRN232.Lab1.CoffeeStore.Application.csproj|d:\\documents\\prn232.lab1\\prn232.lab1.coffeestore.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49E8A5A7-49DE-4173-9FCB-135BD256B13B}|PRN232.Lab1.CoffeeStore.Application\\PRN232.Lab1.CoffeeStore.Application.csproj|solutionrelative:prn232.lab1.coffeestore.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49E8A5A7-49DE-4173-9FCB-135BD256B13B}|PRN232.Lab1.CoffeeStore.Application\\PRN232.Lab1.CoffeeStore.Application.csproj|d:\\documents\\prn232.lab1\\prn232.lab1.coffeestore.application\\viewmodels\\menus\\createmenurequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49E8A5A7-49DE-4173-9FCB-135BD256B13B}|PRN232.Lab1.CoffeeStore.Application\\PRN232.Lab1.CoffeeStore.Application.csproj|solutionrelative:prn232.lab1.coffeestore.application\\viewmodels\\menus\\createmenurequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{49E8A5A7-49DE-4173-9FCB-135BD256B13B}|PRN232.Lab1.CoffeeStore.Application\\PRN232.Lab1.CoffeeStore.Application.csproj|d:\\documents\\prn232.lab1\\prn232.lab1.coffeestore.application\\iservices\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49E8A5A7-49DE-4173-9FCB-135BD256B13B}|PRN232.Lab1.CoffeeStore.Application\\PRN232.Lab1.CoffeeStore.Application.csproj|solutionrelative:prn232.lab1.coffeestore.application\\iservices\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49E8A5A7-49DE-4173-9FCB-135BD256B13B}|PRN232.Lab1.CoffeeStore.Application\\PRN232.Lab1.CoffeeStore.Application.csproj|d:\\documents\\prn232.lab1\\prn232.lab1.coffeestore.application\\iservices\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49E8A5A7-49DE-4173-9FCB-135BD256B13B}|PRN232.Lab1.CoffeeStore.Application\\PRN232.Lab1.CoffeeStore.Application.csproj|solutionrelative:prn232.lab1.coffeestore.application\\iservices\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{49E8A5A7-49DE-4173-9FCB-135BD256B13B}|PRN232.Lab1.CoffeeStore.Application\\PRN232.Lab1.CoffeeStore.Application.csproj|d:\\documents\\prn232.lab1\\prn232.lab1.coffeestore.application\\viewmodels\\menus\\addproductinmenurequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49E8A5A7-49DE-4173-9FCB-135BD256B13B}|PRN232.Lab1.CoffeeStore.Application\\PRN232.Lab1.CoffeeStore.Application.csproj|solutionrelative:prn232.lab1.coffeestore.application\\viewmodels\\menus\\addproductinmenurequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,97 +50,136 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IMenuSerivce.cs",
-              "DocumentMoniker": "D:\\Documents\\PRN232.Lab1\\PRN232.Lab1.CoffeeStore.Application\\IServices\\IMenuSerivce.cs",
-              "RelativeDocumentMoniker": "PRN232.Lab1.CoffeeStore.Application\\IServices\\IMenuSerivce.cs",
-              "ToolTip": "D:\\Documents\\PRN232.Lab1\\PRN232.Lab1.CoffeeStore.Application\\IServices\\IMenuSerivce.cs",
-              "RelativeToolTip": "PRN232.Lab1.CoffeeStore.Application\\IServices\\IMenuSerivce.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAewBAAAAA/AAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "UpdateMenuRequest.cs",
+              "DocumentMoniker": "D:\\Documents\\PRN232.Lab1\\PRN232.Lab1.CoffeeStore.Application\\ViewModels\\Menus\\UpdateMenuRequest.cs",
+              "RelativeDocumentMoniker": "PRN232.Lab1.CoffeeStore.Application\\ViewModels\\Menus\\UpdateMenuRequest.cs",
+              "ToolTip": "D:\\Documents\\PRN232.Lab1\\PRN232.Lab1.CoffeeStore.Application\\ViewModels\\Menus\\UpdateMenuRequest.cs",
+              "RelativeToolTip": "PRN232.Lab1.CoffeeStore.Application\\ViewModels\\Menus\\UpdateMenuRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAByAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T17:34:10.266Z",
+              "WhenOpened": "2025-09-15T14:17:38.978Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MenuController.cs",
               "DocumentMoniker": "D:\\Documents\\PRN232.Lab1\\PRN232.Lab1.CoffeeStore.API\\Controllers\\MenuController.cs",
               "RelativeDocumentMoniker": "PRN232.Lab1.CoffeeStore.API\\Controllers\\MenuController.cs",
               "ToolTip": "D:\\Documents\\PRN232.Lab1\\PRN232.Lab1.CoffeeStore.API\\Controllers\\MenuController.cs",
               "RelativeToolTip": "PRN232.Lab1.CoffeeStore.API\\Controllers\\MenuController.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAjwDsAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAA5wDgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T16:37:39.606Z",
+              "WhenOpened": "2025-09-15T09:20:39.338Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MenuService.cs",
               "DocumentMoniker": "D:\\Documents\\PRN232.Lab1\\PRN232.Lab1.CoffeeStore.Application\\Services\\MenuService.cs",
               "RelativeDocumentMoniker": "PRN232.Lab1.CoffeeStore.Application\\Services\\MenuService.cs",
               "ToolTip": "D:\\Documents\\PRN232.Lab1\\PRN232.Lab1.CoffeeStore.Application\\Services\\MenuService.cs",
               "RelativeToolTip": "PRN232.Lab1.CoffeeStore.Application\\Services\\MenuService.cs",
-              "ViewState": "AgIAAIMAAAAAAAAAAAAxwJYAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAawIgAAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T15:54:56.524Z",
+              "WhenOpened": "2025-09-15T08:21:41.805Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MenuResponse.cs",
-              "DocumentMoniker": "D:\\Documents\\PRN232.Lab1\\PRN232.Lab1.CoffeeStore.Application\\ViewModels\\Menus\\MenuResponse.cs",
-              "RelativeDocumentMoniker": "PRN232.Lab1.CoffeeStore.Application\\ViewModels\\Menus\\MenuResponse.cs",
-              "ToolTip": "D:\\Documents\\PRN232.Lab1\\PRN232.Lab1.CoffeeStore.Application\\ViewModels\\Menus\\MenuResponse.cs",
-              "RelativeToolTip": "PRN232.Lab1.CoffeeStore.Application\\ViewModels\\Menus\\MenuResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
+              "Title": "MenuRepo.cs",
+              "DocumentMoniker": "D:\\Documents\\PRN232.Lab1\\PRN232.Lab1.CoffeeStore.Repository\\Repositories\\MenuRepo.cs",
+              "RelativeDocumentMoniker": "PRN232.Lab1.CoffeeStore.Repository\\Repositories\\MenuRepo.cs",
+              "ToolTip": "D:\\Documents\\PRN232.Lab1\\PRN232.Lab1.CoffeeStore.Repository\\Repositories\\MenuRepo.cs",
+              "RelativeToolTip": "PRN232.Lab1.CoffeeStore.Repository\\Repositories\\MenuRepo.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAqwCAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T16:57:28.481Z",
+              "WhenOpened": "2025-09-15T08:51:44.676Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Menu.cs",
-              "DocumentMoniker": "D:\\Documents\\PRN232.Lab1\\PRN232.Lab1.CoffeeStore.Data\\Entities\\Menu.cs",
-              "RelativeDocumentMoniker": "PRN232.Lab1.CoffeeStore.Data\\Entities\\Menu.cs",
-              "ToolTip": "D:\\Documents\\PRN232.Lab1\\PRN232.Lab1.CoffeeStore.Data\\Entities\\Menu.cs",
-              "RelativeToolTip": "PRN232.Lab1.CoffeeStore.Data\\Entities\\Menu.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA5wAoAAAAAAAAAAAAAAA==",
+              "Title": "ProductRepo.cs",
+              "DocumentMoniker": "D:\\Documents\\PRN232.Lab1\\PRN232.Lab1.CoffeeStore.Repository\\Repositories\\ProductRepo.cs",
+              "RelativeDocumentMoniker": "PRN232.Lab1.CoffeeStore.Repository\\Repositories\\ProductRepo.cs",
+              "ToolTip": "D:\\Documents\\PRN232.Lab1\\PRN232.Lab1.CoffeeStore.Repository\\Repositories\\ProductRepo.cs",
+              "RelativeToolTip": "PRN232.Lab1.CoffeeStore.Repository\\Repositories\\ProductRepo.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-14T16:58:42.622Z",
+              "WhenOpened": "2025-09-15T08:51:42.135Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
+              "Title": "CreateMenuRequest.cs",
+              "DocumentMoniker": "D:\\Documents\\PRN232.Lab1\\PRN232.Lab1.CoffeeStore.Application\\ViewModels\\Menus\\CreateMenuRequest.cs",
+              "RelativeDocumentMoniker": "PRN232.Lab1.CoffeeStore.Application\\ViewModels\\Menus\\CreateMenuRequest.cs",
+              "ToolTip": "D:\\Documents\\PRN232.Lab1\\PRN232.Lab1.CoffeeStore.Application\\ViewModels\\Menus\\CreateMenuRequest.cs",
+              "RelativeToolTip": "PRN232.Lab1.CoffeeStore.Application\\ViewModels\\Menus\\CreateMenuRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T09:10:11.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "IProductService.cs",
               "DocumentMoniker": "D:\\Documents\\PRN232.Lab1\\PRN232.Lab1.CoffeeStore.Application\\IServices\\IProductService.cs",
               "RelativeDocumentMoniker": "PRN232.Lab1.CoffeeStore.Application\\IServices\\IProductService.cs",
               "ToolTip": "D:\\Documents\\PRN232.Lab1\\PRN232.Lab1.CoffeeStore.Application\\IServices\\IProductService.cs",
               "RelativeToolTip": "PRN232.Lab1.CoffeeStore.Application\\IServices\\IProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T14:36:29.721Z",
+              "WhenOpened": "2025-09-15T09:19:45.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\Documents\\PRN232.Lab1\\PRN232.Lab1.CoffeeStore.API\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "PRN232.Lab1.CoffeeStore.API\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\Documents\\PRN232.Lab1\\PRN232.Lab1.CoffeeStore.API\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "PRN232.Lab1.CoffeeStore.API\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAmwDIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T07:57:13.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddProductInMenuRequest.cs",
+              "DocumentMoniker": "D:\\Documents\\PRN232.Lab1\\PRN232.Lab1.CoffeeStore.Application\\ViewModels\\Menus\\AddProductInMenuRequest.cs",
+              "RelativeDocumentMoniker": "PRN232.Lab1.CoffeeStore.Application\\ViewModels\\Menus\\AddProductInMenuRequest.cs",
+              "ToolTip": "D:\\Documents\\PRN232.Lab1\\PRN232.Lab1.CoffeeStore.Application\\ViewModels\\Menus\\AddProductInMenuRequest.cs",
+              "RelativeToolTip": "PRN232.Lab1.CoffeeStore.Application\\ViewModels\\Menus\\AddProductInMenuRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T09:09:36.768Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ICategoryService.cs",
-              "DocumentMoniker": "D:\\Documents\\PRN232.Lab1\\PRN232.Lab1.CoffeeStore.Application\\IServices\\ICategoryService.cs",
-              "RelativeDocumentMoniker": "PRN232.Lab1.CoffeeStore.Application\\IServices\\ICategoryService.cs",
-              "ToolTip": "D:\\Documents\\PRN232.Lab1\\PRN232.Lab1.CoffeeStore.Application\\IServices\\ICategoryService.cs",
-              "RelativeToolTip": "PRN232.Lab1.CoffeeStore.Application\\IServices\\ICategoryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\Documents\\PRN232.Lab1\\PRN232.Lab1.CoffeeStore.Application\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "PRN232.Lab1.CoffeeStore.Application\\Services\\ProductService.cs",
+              "ToolTip": "D:\\Documents\\PRN232.Lab1\\PRN232.Lab1.CoffeeStore.Application\\Services\\ProductService.cs",
+              "RelativeToolTip": "PRN232.Lab1.CoffeeStore.Application\\Services\\ProductService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-11T14:36:00.713Z",
+              "WhenOpened": "2025-09-15T02:42:46.052Z",
               "EditorCaption": ""
             }
           ]

@@ -12,3 +12,4 @@ D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.Data\obj\Debug\net8.0\refint\PR
 D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.Data\obj\Debug\net8.0\PRN232.Lab1.CoffeeStore.Data.pdb
 D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.Data\obj\Debug\net8.0\PRN232.Lab1.CoffeeStore.Data.genruntimeconfig.cache
 D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.Data\obj\Debug\net8.0\ref\PRN232.Lab1.CoffeeStore.Data.dll
+D:\Documents\PRN232.Lab1\PRN232.Lab1.CoffeeStore.Data\obj\Debug\net8.0\PRN232.Lab1.CoffeeStore.Data.sourcelink.json

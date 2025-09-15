@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PRN232.Lab1.CoffeeStore.Application.ViewModels.Products;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,5 +13,6 @@ namespace PRN232.Lab1.CoffeeStore.Application.ViewModels.Menus
         public string MenuName { get; set; } = string.Empty;
         public DateTime MenuFromDate { get; set; }
         public DateTime MenuToDate { get; set; }
+        public IEnumerable<ProductInMenuResponse> ProductInMenus { get; set; } = new List<ProductInMenuResponse>();
     }
 }
