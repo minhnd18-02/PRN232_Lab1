@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("1dca45c7-53d0-480b-aec8-db5ba6e904ec")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("PRN232.Lab1.CoffeeStore.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e7d4e01a8368d99c170807cb5bf68d50cf8df09")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b85c5aef084ed4ec5581839d1135d255cba72d72")]
 [assembly: System.Reflection.AssemblyProductAttribute("PRN232.Lab1.CoffeeStore.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PRN232.Lab1.CoffeeStore.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
