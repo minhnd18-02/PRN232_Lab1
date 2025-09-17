@@ -30,7 +30,6 @@ namespace PRN232.Lab1.CoffeeStore.Infrastructure.Repositories
             return await _context.Menus
                 .Include(p => p.ProductInMenus)
                 .ThenInclude(p => p.Product)
-                .AsNoTracking()
                 .FirstOrDefaultAsync(p => p.MenuId == id);
         }
 

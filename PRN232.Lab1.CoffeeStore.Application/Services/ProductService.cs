@@ -28,7 +28,17 @@ namespace PRN232.Lab1.CoffeeStore.Application.Services
             var response = new ServiceResponse<ProductResponse>();
             try
             {
+                var category = await _unitOfWork.CategoryRepo.GetByIdAsync(product.CategoryId);
+                if (category == null)
+                {
+                    response.Success = false;
+                    response.Message = "Category not found";
+                    return response;
+                }
+
                 var newProduct = _mapper.Map<Product>(product);
+                newProduct.CategoryId = product.CategoryId;
+
                 await _unitOfWork.ProductRepo.AddAsync(newProduct);
 
                 response.Success = true;
@@ -131,18 +141,29 @@ namespace PRN232.Lab1.CoffeeStore.Application.Services
             var response = new ServiceResponse<ProductResponse>();
             try
             {
-                var checkId = await _unitOfWork.ProductRepo.FindEntityAsync(p => p.ProductId == product.ProductId);
+                var checkId = await _unitOfWork.ProductRepo.GetByIdAsync(product.ProductId);
                 if (checkId == null)
                 {
                     response.Success = false;
                     response.Message = "ProductId not found";
                     return response;
                 }
+
+                var checkCate = await _unitOfWork.CategoryRepo.GetByIdAsync(product.CategoryId);
+                if (checkCate == null)
+                {
+                    response.Success = false;
+                    response.Message = "CategoryId not found";
+                    return response;
+                }
+
                 var updateProduct = _mapper.Map(product, checkId);
+                checkId.Category = checkCate;
+
                 await _unitOfWork.ProductRepo.UpdateAsync(updateProduct);
 
                 response.Success = true;
-                response.Message = "Menu updated successfully";
+                response.Message = "Product updated successfully";
                 response.Data = _mapper.Map<ProductResponse>(updateProduct);
             }
             catch (Exception ex)

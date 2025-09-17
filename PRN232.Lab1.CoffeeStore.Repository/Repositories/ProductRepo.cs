@@ -17,14 +17,14 @@ namespace PRN232.Lab1.CoffeeStore.Infrastructure.Repositories
         public async Task<IEnumerable<Product>> GetAllWithMenusAsync()
         {
             return await _context.Products
-                .Include(p => p.ProductInMenus)
+                .Include(p => p.Category)
                 .ToListAsync();
         }
 
         public async Task<Product?> GetByIdWithMenusAsync(int id)
         {
             return await _context.Products
-                .Include(p => p.ProductInMenus)
+                .Include(p => p.Category)
                 .FirstOrDefaultAsync(p => p.ProductId == id);
         }
     }

@@ -12,9 +12,8 @@ namespace PRN232.Lab1.CoffeeStore.Data.Entities
         public string ProductName { get; set; } = string.Empty;
         public string ProductDescription { get; set; } = string.Empty;
         public decimal ProductPrice { get; set; }
-
-        public virtual ICollection<Category> Categories { get; set; } = new List<Category>();
-
+        public int CategoryId { get; set; }
+        public virtual Category Category { get; set; } = null!;
         public virtual ICollection<ProductInMenu> ProductInMenus { get; set; } = new List<ProductInMenu>();
     }
 }

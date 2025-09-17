@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using PRN232.Lab1.CoffeeStore.Application.ViewModels.Categories;
 using PRN232.Lab1.CoffeeStore.Application.ViewModels.Menus;
 using PRN232.Lab1.CoffeeStore.Application.ViewModels.Products;
 using PRN232.Lab1.CoffeeStore.Data.Entities;
@@ -26,7 +27,7 @@ namespace PRN232.Lab1.CoffeeStore.Infrastructure.Mappers
                           opt => opt.MapFrom(src => src.Product.ProductName))
                .ForMember(dest => dest.ProductDescription,
                           opt => opt.MapFrom(src => src.Product.ProductDescription));
-
+            CreateMap<Category, CategoryResponse>().ReverseMap();
         }
     }
 }

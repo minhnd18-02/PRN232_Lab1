@@ -1,4 +1,5 @@
-﻿using PRN232.Lab1.CoffeeStore.Data.Entities;
+﻿using PRN232.Lab1.CoffeeStore.Application.ViewModels.Categories;
+using PRN232.Lab1.CoffeeStore.Data.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +14,6 @@ namespace PRN232.Lab1.CoffeeStore.Application.ViewModels.Products
         public string ProductName { get; set; } = string.Empty;
         public string ProductDescription { get; set; } = string.Empty;
         public decimal ProductPrice { get; set; }
-        //public IEnumerable<ProductInMenuResponse> ProductInMenus { get; set; } = new List<ProductInMenuResponse>();    
+        public CategoryResponse Category { get; set; } = null!;
     }
 }

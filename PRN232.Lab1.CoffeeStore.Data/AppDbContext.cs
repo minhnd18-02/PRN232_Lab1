@@ -18,36 +18,21 @@ namespace PRN232.Lab1.CoffeeStore.Data
         {
             base.OnModelCreating(modelBuilder);
 
+
+            modelBuilder.Entity<ProductInMenu>()
+               .HasOne(pim => pim.Product)
+               .WithMany(p => p.ProductInMenus)
+               .HasForeignKey(pim => pim.ProductId);
+
             modelBuilder.Entity<ProductInMenu>()
                 .HasOne(pim => pim.Menu)
                 .WithMany(m => m.ProductInMenus)
-                .HasForeignKey(pim => pim.MenuId)
-                .OnDelete(DeleteBehavior.Cascade);
-
-            modelBuilder.Entity<ProductInMenu>()
-                .HasOne(pim => pim.Product)
-                .WithMany(p => p.ProductInMenus)
-                .HasForeignKey(pim => pim.ProductId)
-                .OnDelete(DeleteBehavior.Cascade);
+                .HasForeignKey(pim => pim.MenuId);
 
             modelBuilder.Entity<Product>()
-                .HasMany(p => p.Categories)
-                .WithMany(); 
-
-            modelBuilder.Entity<Menu>()
-                .Property(m => m.MenuName)
-                .IsRequired()
-                .HasMaxLength(100);
-
-            modelBuilder.Entity<Product>()
-                .Property(p => p.ProductName)
-                .IsRequired()
-                .HasMaxLength(100);
-
-            modelBuilder.Entity<Category>()
-                .Property(c => c.CategoryName)
-                .IsRequired()
-                .HasMaxLength(100);
+                           .HasOne(p => p.Category)
+                           .WithMany(c => c.Products)
+                           .HasForeignKey(p => p.CategoryId);
         }
     }
 

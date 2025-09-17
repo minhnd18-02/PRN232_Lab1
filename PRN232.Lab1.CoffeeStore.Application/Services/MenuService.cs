@@ -27,8 +27,16 @@ namespace PRN232.Lab1.CoffeeStore.Application.Services
             try
             {
                 var newMenu = _mapper.Map<Menu>(menu);
+
                 foreach (var p in menu.Products)
                 {
+                    var checkProductId = await _unitOfWork.ProductRepo.GetByIdAsync(p.ProductId);
+                    if (checkProductId == null)
+                    {
+                        response.Success = false;
+                        response.Message = "Product not found";
+                        return response;
+                    }
                     newMenu.ProductInMenus.Add(new ProductInMenu
                     {
                         ProductId = p.ProductId,
@@ -41,7 +49,7 @@ namespace PRN232.Lab1.CoffeeStore.Application.Services
 
                 response.Success = true;
                 response.Message = "Menu added successfully";
-                response.Data = _mapper.Map<MenuResponse>(newMenu);
+                response.Data = _mapper.Map<MenuResponse>(menuWithProducts);
             }
             catch (Exception ex)
             {

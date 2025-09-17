@@ -4,13 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PRN232.Lab1.CoffeeStore.Data.Entities
+namespace PRN232.Lab1.CoffeeStore.Application.ViewModels.Categories
 {
-    public class Category
+    public class CategoryResponse
     {
         public int CategoryId { get; set; }
         public string CategoryName { get; set; } = string.Empty;
         public string CategoryDescription { get; set; } = string.Empty;
-        public virtual ICollection<Product> Products { get; set; } = new List<Product>();
     }
 }
