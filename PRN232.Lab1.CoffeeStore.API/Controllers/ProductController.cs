@@ -28,6 +28,17 @@ namespace PRN232.Lab1.CoffeeStore.API.Controllers
             return Ok(result);
         }
 
+        [HttpGet("paging")]
+        public async Task<IActionResult> GetAllPaging(int pageNumber, int pageSize)
+        {
+            var result = await _productService.GetProductsPaging(pageNumber, pageSize);
+            if (result == null)
+            {
+                return BadRequest(result);
+            }
+            return Ok(result);
+        }
+
         [HttpGet("{productId}")]
         public async Task<IActionResult> GetProductById(int productId)
         {

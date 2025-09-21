@@ -21,5 +21,13 @@ namespace PRN232.Lab1.CoffeeStore.Application.ServiceResponse
         //public double? PriceTotal { get; set; } = null;
         //[JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
         public List<string>? ErrorMessages { get; set; } = null;
+
+    }
+    public class PaginationModel<T>
+    {
+        public int Page { get; set; }
+        public int TotalPage { get; set; }
+        public int TotalRecords { get; set; }
+        public IEnumerable<T> ListData { get; set; } = new List<T>();
     }
 }

@@ -29,6 +29,17 @@ namespace PRN232.Lab1.CoffeeStore.API.Controllers
             return Ok(result);
         }
 
+        [HttpGet("paging")]
+        public async Task<IActionResult> GetPagingMenu(int pageNumber, int pageSize)
+        {
+            var result = await _menuService.GetMenusPaging(pageNumber, pageSize);
+            if (!result.Success)
+            {
+                return BadRequest(result);
+            }
+            return Ok(result);
+        }
+
         [HttpGet("{menuId}")]
         public async Task<IActionResult> GetMenuById(int menuId)
         {
@@ -39,6 +50,7 @@ namespace PRN232.Lab1.CoffeeStore.API.Controllers
             }
             return Ok(result);
         }
+
 
         [HttpPost]
         public async Task<IActionResult> CreateMenu([FromBody] CreateMenuRequest menu)

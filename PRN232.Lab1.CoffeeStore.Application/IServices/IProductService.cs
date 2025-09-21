@@ -17,5 +17,6 @@ namespace PRN232.Lab1.CoffeeStore.Application.IServices
         public Task<ServiceResponse<ProductResponse>> AddProduct(CreateProductRequest product);
         public Task<ServiceResponse<ProductResponse>> UpdateProduct(UpdateProductRequest product);
         public Task<ServiceResponse<int>> DeleteProduct(int id);
+        public Task<ServiceResponse<PaginationModel<ProductResponse>>> GetProductsPaging(int pageNumber, int pageSize);
     }
 }

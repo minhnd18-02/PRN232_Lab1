@@ -79,6 +79,27 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "PRN232.Lab1.CoffeeStore.API.Controllers.MenuController",
+    "Method": "GetPagingMenu",
+    "RelativePath": "api/Menu/paging",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "PRN232.Lab1.CoffeeStore.API.Controllers.ProductController",
     "Method": "GetAll",
     "RelativePath": "api/Product",
@@ -148,6 +169,27 @@
         "Name": "productId",
         "Type": "System.Int32",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN232.Lab1.CoffeeStore.API.Controllers.ProductController",
+    "Method": "GetAllPaging",
+    "RelativePath": "api/Product/paging",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

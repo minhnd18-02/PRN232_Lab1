@@ -16,6 +16,7 @@ namespace PRN232.Lab1.CoffeeStore.Application.IServices
         Task<ServiceResponse<MenuResponse>> AddMenu(CreateMenuRequest menu);
         Task<ServiceResponse<MenuResponse>> UpdateMenu(int id, UpdateMenuRequest menu);
         Task<ServiceResponse<int>> DeleteMenu(int id);
+        Task<ServiceResponse<PaginationModel<MenuResponse>>> GetMenusPaging(int pageNumber, int pageSize);
 
     }
 }

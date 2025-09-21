@@ -46,6 +46,36 @@
         }
       }
     },
+    "/api/Menu/paging": {
+      "get": {
+        "tags": [
+          "Menu"
+        ],
+        "parameters": [
+          {
+            "name": "pageNumber",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Menu/{menuId}": {
       "get": {
         "tags": [
@@ -200,6 +230,36 @@
         }
       }
     },
+    "/api/Product/paging": {
+      "get": {
+        "tags": [
+          "Product"
+        ],
+        "parameters": [
+          {
+            "name": "pageNumber",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Product/{productId}": {
       "get": {
         "tags": [
@@ -287,13 +347,20 @@
         "additionalProperties": false
       },
       "CreateProductRequest": {
+        "required": [
+          "categoryId",
+          "productName"
+        ],
         "type": "object",
         "properties": {
           "productName": {
-            "type": "string",
-            "nullable": true
+            "maxLength": 20,
+            "minLength": 0,
+            "type": "string"
           },
           "productDescription": {
+            "maxLength": 50,
+            "minLength": 0,
             "type": "string",
             "nullable": true
           },
@@ -302,6 +369,8 @@
             "format": "double"
           },
           "categoryId": {
+            "maximum": 2147483647,
+            "minimum": 1,
             "type": "integer",
             "format": "int32"
           }

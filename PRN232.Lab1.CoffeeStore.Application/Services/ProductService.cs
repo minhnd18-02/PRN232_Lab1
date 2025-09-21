@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Azure;
 using Azure.Core;
 using Microsoft.EntityFrameworkCore;
 using PRN232.Lab1.CoffeeStore.Application.IServices;
@@ -120,6 +121,49 @@ namespace PRN232.Lab1.CoffeeStore.Application.Services
                     response.Success = true;
                     response.Message = "Products retrieved successfully";
                     response.Data = _mapper.Map<IEnumerable<ProductResponse>>(products);
+                }
+                else
+                {
+                    response.Success = false;
+                    response.Message = "Products not found";
+                }
+            }
+            catch (Exception ex)
+            {
+                response.Success = false;
+                response.Error = ex.Message;
+                response.ErrorMessages = new List<string> { ex.ToString() };
+            }
+            return response;
+        }
+
+        public async Task<ServiceResponse<PaginationModel<ProductResponse>>> GetProductsPaging(int pageNumber, int pageSize)
+        {
+            var response = new ServiceResponse<PaginationModel<ProductResponse>>();
+            try
+            {
+                var products = await _unitOfWork.ProductRepo.GetAllWithMenusAsync();
+                if (products != null && products.Any())
+                {
+                    var totalRecords = products.Count();
+                    var totalPages = (int)Math.Ceiling(totalRecords / (double)pageSize);
+
+                    var pagedProducts = products
+                        .Skip((pageNumber - 1) * pageSize)
+                        .Take(pageSize)
+                        .ToList();
+
+                    var paginationModel = new PaginationModel<ProductResponse>
+                    {
+                        Page = pageNumber,
+                        TotalPage = totalPages,
+                        TotalRecords = totalRecords,
+                        ListData = _mapper.Map<IEnumerable<ProductResponse>>(pagedProducts)
+                    };
+
+                    response.Success = true;
+                    response.Message = "Products retrieved successfully";
+                    response.Data = paginationModel;
                 }
                 else
                 {

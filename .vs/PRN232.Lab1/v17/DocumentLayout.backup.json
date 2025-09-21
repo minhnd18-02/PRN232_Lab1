@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\Documents\\PRN232.Lab1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E6038F89-CFE1-4CC0-A970-3686F49D00C0}|PRN232.Lab1.CoffeeStore.API\\PRN232.Lab1.CoffeeStore.API.csproj|d:\\documents\\prn232.lab1\\prn232.lab1.coffeestore.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E6038F89-CFE1-4CC0-A970-3686F49D00C0}|PRN232.Lab1.CoffeeStore.API\\PRN232.Lab1.CoffeeStore.API.csproj|solutionrelative:prn232.lab1.coffeestore.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E6038F89-CFE1-4CC0-A970-3686F49D00C0}|PRN232.Lab1.CoffeeStore.API\\PRN232.Lab1.CoffeeStore.API.csproj|d:\\documents\\prn232.lab1\\prn232.lab1.coffeestore.api\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6038F89-CFE1-4CC0-A970-3686F49D00C0}|PRN232.Lab1.CoffeeStore.API\\PRN232.Lab1.CoffeeStore.API.csproj|solutionrelative:prn232.lab1.coffeestore.api\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49E8A5A7-49DE-4173-9FCB-135BD256B13B}|PRN232.Lab1.CoffeeStore.Application\\PRN232.Lab1.CoffeeStore.Application.csproj|d:\\documents\\prn232.lab1\\prn232.lab1.coffeestore.application\\services\\menuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49E8A5A7-49DE-4173-9FCB-135BD256B13B}|PRN232.Lab1.CoffeeStore.Application\\PRN232.Lab1.CoffeeStore.Application.csproj|solutionrelative:prn232.lab1.coffeestore.application\\services\\menuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49E8A5A7-49DE-4173-9FCB-135BD256B13B}|PRN232.Lab1.CoffeeStore.Application\\PRN232.Lab1.CoffeeStore.Application.csproj|d:\\documents\\prn232.lab1\\prn232.lab1.coffeestore.application\\iservices\\imenuserivce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49E8A5A7-49DE-4173-9FCB-135BD256B13B}|PRN232.Lab1.CoffeeStore.Application\\PRN232.Lab1.CoffeeStore.Application.csproj|solutionrelative:prn232.lab1.coffeestore.application\\iservices\\imenuserivce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Documents\\PRN232.Lab1\\PRN232.Lab1.CoffeeStore.API\\Program.cs",
-              "RelativeDocumentMoniker": "PRN232.Lab1.CoffeeStore.API\\Program.cs",
-              "ToolTip": "D:\\Documents\\PRN232.Lab1\\PRN232.Lab1.CoffeeStore.API\\Program.cs",
-              "RelativeToolTip": "PRN232.Lab1.CoffeeStore.API\\Program.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwB4AAAAfAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "IMenuSerivce.cs",
+              "DocumentMoniker": "D:\\Documents\\PRN232.Lab1\\PRN232.Lab1.CoffeeStore.Application\\IServices\\IMenuSerivce.cs",
+              "RelativeDocumentMoniker": "PRN232.Lab1.CoffeeStore.Application\\IServices\\IMenuSerivce.cs",
+              "ToolTip": "D:\\Documents\\PRN232.Lab1\\PRN232.Lab1.CoffeeStore.Application\\IServices\\IMenuSerivce.cs",
+              "RelativeToolTip": "PRN232.Lab1.CoffeeStore.Application\\IServices\\IMenuSerivce.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T15:08:40.298Z",
+              "WhenOpened": "2025-09-21T11:14:55.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MenuService.cs",
+              "DocumentMoniker": "D:\\Documents\\PRN232.Lab1\\PRN232.Lab1.CoffeeStore.Application\\Services\\MenuService.cs",
+              "RelativeDocumentMoniker": "PRN232.Lab1.CoffeeStore.Application\\Services\\MenuService.cs",
+              "ToolTip": "D:\\Documents\\PRN232.Lab1\\PRN232.Lab1.CoffeeStore.Application\\Services\\MenuService.cs",
+              "RelativeToolTip": "PRN232.Lab1.CoffeeStore.Application\\Services\\MenuService.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAiwA4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T11:13:48.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MenuController.cs",
+              "DocumentMoniker": "D:\\Documents\\PRN232.Lab1\\PRN232.Lab1.CoffeeStore.API\\Controllers\\MenuController.cs",
+              "RelativeDocumentMoniker": "PRN232.Lab1.CoffeeStore.API\\Controllers\\MenuController.cs",
+              "ToolTip": "D:\\Documents\\PRN232.Lab1\\PRN232.Lab1.CoffeeStore.API\\Controllers\\MenuController.cs",
+              "RelativeToolTip": "PRN232.Lab1.CoffeeStore.API\\Controllers\\MenuController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAiwCMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T11:13:29.326Z",
               "EditorCaption": ""
             }
           ]

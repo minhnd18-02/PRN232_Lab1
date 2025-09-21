@@ -142,6 +142,51 @@ namespace PRN232.Lab1.CoffeeStore.Application.Services
             return response;
         }
 
+        public async Task<ServiceResponse<PaginationModel<MenuResponse>>> GetMenusPaging(int pageNumber, int pageSize)
+        {
+            var response = new ServiceResponse<PaginationModel<MenuResponse>>();
+            try
+            {
+                var menus = await _unitOfWork.MenuRepo.GetAllWithMenusAsync();
+
+                if (menus != null && menus.Any())
+                {
+                    var totalRecords = menus.Count();
+                    var totalPages = (int)Math.Ceiling(totalRecords / (double)pageSize);
+
+                    var pagedMenus = menus
+                        .Skip((pageNumber - 1) * pageSize)
+                        .Take(pageSize)
+                        .ToList();
+
+                    var paginationModel = new PaginationModel<MenuResponse>
+                    {
+                        Page = pageNumber,
+                        TotalPage = totalPages,
+                        TotalRecords = totalRecords,
+                        ListData = _mapper.Map<IEnumerable<MenuResponse>>(pagedMenus)
+                    };
+
+                    response.Success = true;
+                    response.Message = "Menus retrieved successfully";
+                    response.Data = paginationModel;
+                }
+                else
+                {
+                    response.Success = false;
+                    response.Message = "Menus not found";
+                }
+            }
+            catch (Exception ex)
+            {
+                response.Success = false;
+                response.Error = ex.Message;
+                response.ErrorMessages = new List<string> { ex.ToString() };
+            }
+            return response;
+        }
+
+
         public async Task<ServiceResponse<MenuResponse>> UpdateMenu(int id, UpdateMenuRequest menu)
         {
             var response = new ServiceResponse<MenuResponse>();
